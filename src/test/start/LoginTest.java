@@ -39,7 +39,7 @@ public class LoginTest {
           new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOfElementLocated(By.className("detailsViewLink")));
 
           assertEquals("Agomo | My Computers", driver.getTitle());
-
+          Thank you;
 
           //assertEquals("xxx",driver.getTitle());
 
